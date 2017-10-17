@@ -1,0 +1,90 @@
+@import 'colors';
+
+.measure-details__container {
+    border: 2px solid $dark-gray;
+    width: 75%;
+    background-color: $white;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.measure-details__title {
+    padding-left: 10px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.measure-details__content {
+    border: 1px solid $dark-gray;
+    margin: 15px
+}
+
+.measure-detail__header {
+    height: 35px;
+    background-color: $gray94;
+    margin-top: 25px;
+}
+
+.measure-details__heading {
+  border-bottom: 1px dashed $dark-gray;
+  margin-top: 20px;
+  height: 30px;
+  padding-left: 15px;
+  font-weight: bolder;
+}
+
+  .select-dataset,
+  .refine-dataset,
+  .add-computations,
+  .output-attr,
+  .summary {
+    cursor: pointer;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 20%;
+    float: left;
+    padding-left: 25px !important;  
+
+    span {
+      font-size: 12px;
+      font-weight: bold;
+      position: relative;
+      top: -2px;
+      padding-left: 10px;
+    }
+
+    .md-avatar {
+    height: 20px;
+    width: 20px;
+    margin-top: 8px;
+}
+
+.md-avatar-content {
+    font-size: 11px;
+}
+  }
+
+#buttonClicked {
+  pointer-events: none;
+
+  span {
+    color: $purple !important;
+  }
+
+  .md-avatar--default {
+    background:$purple !important;
+    color: #f5f5f5;
+}
+}
+
+.measure-detail__cancel {
+   margin: 2% 80% 2% !important;
+    width: 12%;
+
+    &.md-btn--text {
+    font-weight: bolder;
+    color: $black !important;
+    font-size: 14px;
+}
+}

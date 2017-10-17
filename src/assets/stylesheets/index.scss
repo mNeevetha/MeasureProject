@@ -1,0 +1,7 @@
+@import 'colors';
+@import '~react-md/src/scss/react-md';
+
+$md-secondary-color: $medium-gray;
+$md-font-family: 'Open Sans';
+
+@include react-md-everything;

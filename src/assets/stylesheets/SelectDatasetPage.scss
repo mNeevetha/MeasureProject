@@ -1,0 +1,79 @@
+@import 'colors';
+
+
+.md-data-table--responsive {
+    border: 1px solid $dark-gray !important;
+    margin: 2%;
+    background-color: $medium-gray;
+}
+
+.select-dataset__table {
+    background-color: $light-gray;
+    width: 95% !important;
+    margin: 3% !important;
+    
+
+    tr.md-table-row.select-dataset__row {
+    border: 5px solid $medium-gray !important;
+    background-color: $white;
+}
+}
+
+
+.select-dataset__row {
+    margin: 5px;
+    background-color: $white;
+    height: 32px;
+    border: 1px solid $dark-gray;
+
+    .md-btn .md-icon {
+    font-size: 15px !important;
+}
+}
+
+.select-dataset__dataset-value,
+.select-dataset__last-executed-value {
+    float: left;
+    margin-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.dataset-value {
+    font-weight: bold;
+}
+
+thead.md-table-header {
+    background-color: $medium-gray;
+}
+
+.md-table-column--grow {
+    width: 30% !important;
+}
+
+.md-table-column--header {
+    font-size: 14px;
+    font-weight: bold;
+    color: $black !important;
+}
+
+.md-table-checkbox {
+    width: 75px;
+}
+.md-icon.material-icons {
+    margin-top: 6px;
+}
+
+.md-table-column--adjusted {
+    padding-right: 5px !important;
+}
+
+.select-dataset__row .md-btn .md-icon {
+    color: green;
+}
+
+.executed-data {
+    color: $purple;
+    font-weight: bolder;
+    font-size: 13px;
+}

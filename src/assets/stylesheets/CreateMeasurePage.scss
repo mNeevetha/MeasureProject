@@ -1,0 +1,98 @@
+@import 'colors';
+@import 'mixin';    
+
+.create-measure__container {
+    border: 2px solid $dark-gray;
+    width: 70%;
+    background-color: $white;
+    max-height: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.create-measure__title {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.create-measure__button {
+    margin-top: 85px !important;
+    margin-left: 38%;
+    color: $black !important;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.create-measure__header {
+    border-top: 1px solid $dark-gray;
+    border-bottom: 1px solid $dark-gray;
+    background-color: $gray94;
+    padding-left: 30px;
+    h5 {
+        font-weight: bolder;
+        font-weight: bolder;
+        padding-top: 10px;
+        padding-left: 7px;
+    }
+}
+
+.create-measure__content {
+    padding-bottom: 20%;
+}
+
+.create-measure__name-icon {
+  @include textField-icon();
+  background-image: url('../images/measure__name.svg') !important;
+  float: left;
+}
+
+.create-measure__desc-icon { 
+  @include textField-icon();
+  background-image: url('../images/measure__desc.svg') !important;
+  float: left;
+}
+
+.create-measure__name-container,
+.create-measure__desc-container {
+    width:450px;
+    float: left;
+    padding-left: 20px;
+}
+
+.create-measure__form {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.create-measure__description {
+    height: 115px !important;
+
+    .md-divider--text-field {
+    margin-top: 94px !important;
+}
+}
+
+.create-measure__name {
+    .md-divider--text-field {
+    margin-top: 4px !important;
+}
+}
+
+.create-measure__name,
+.create-measure__description {
+    width: 70% !important;
+    float: left;
+    border: 1px solid $grey;
+    height: 25px;
+
+    .md-text-field--margin {
+    margin-top: 4px;
+}
+}
+
+th.md-table-column.md-table-column--header.md-text--secondary.md-text-left.md-table-column--grow {
+    font-size: 14px;
+    font-weight: bold;
+}
+
